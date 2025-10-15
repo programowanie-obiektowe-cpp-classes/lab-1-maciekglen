@@ -1,0 +1,3 @@
+/home/cieniste/cobiektowe/lab-1-maciekglen/build/CMakeFiles/zal.dir
+/home/cieniste/cobiektowe/lab-1-maciekglen/build/CMakeFiles/edit_cache.dir
+/home/cieniste/cobiektowe/lab-1-maciekglen/build/CMakeFiles/rebuild_cache.dir
