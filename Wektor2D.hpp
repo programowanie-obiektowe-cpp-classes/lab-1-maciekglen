@@ -1,11 +1,12 @@
 #include <cmath>
 // #include <print>
-
+/*
 struct Informer
 {
     Informer() { std::println("Informer stworzony"); }
     ~Informer() { std::println("Informer zniszczony"); }
 };
+*/
 
 class Wektor2D
 {
