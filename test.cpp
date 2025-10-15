@@ -32,3 +32,36 @@ TEST_CASE("algebra", "[]")
     REQUIRE(std::is_same_v< double, decltype(prod) >);
     CHECK(prod == Approx{4.});
 }
+
+/*
+int main()
+{
+Wektor2D v1{};         // Konstruktor domyślny, wektor o wsp. [0, 0]
+v1.setX(1.0);          // setter
+v1.setY(1.0);          // setter
+double x1 = v1.getX(); // getter
+double y1 = v1.getY(); // getter
+
+std::println("X = {}", x1);
+std::println("Y = {}", y1);
+
+Wektor2D v2{2., 2.};     // Konstruktor nadający współrzędne
+double   x2 = v2.getX(); // getter
+double   y2 = v2.getY(); // getter
+
+std::println("X = {}", x2);
+std::println("Y = {}", y2);
+
+Wektor2D sum = v1 + v2; // dodawanie wektorów
+
+double sumax = sum.getX(); // getter
+double sumay = sum.getY(); // getter
+
+std::println("SumaX = {}", sumax);
+std::println("SumaY = {}", sumay);
+
+double prod = v1 * v2; // iloczyn skalarny
+std::println("Iloczyn = {}", prod);
+}
+
+*/
